@@ -1,0 +1,114 @@
+#earth {
+position:relative;
+height:150px;
+width:150px;
+margin-left:20px;
+background: #888 url(https://sm.pcmag.com/t/pcmag_uk/news/g/google-removes-clouds-from-maps,-earth-satellite-i/google-removes-clouds-from-maps,-earth-satellite-i_wx8w.3840.jpg) 0 0 repeat;
+border-radius:50%;
+background-size:310px;
+animation: rotate 4s linear infinite;
+transition: transform 200ms linear;
+transform-style:preserve-3d;
+box-shadow: inset 20px 0 80px 6px rgba(0, 0, 0, 1);
+color:#000;
+}
+
+
+@keyframes rotate {
+0% {
+background-position: 0 0;
+}
+100% {
+background-position: 630px 0;
+}
+}
+
+h1 {
+  text-align:center;
+  font-size: 2rem;
+}
+
+img {
+  width:40%;
+  max-width:480px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+#description {
+  text-align:center;
+  font-size:20px;
+}
+
+#img-caption {
+  text-align:center;
+}
+
+#figcaption1 {
+ text-align:center; 
+  position:relative;
+}
+
+#tribute-info {
+  text-align:justify;
+  background-color: hsl(197, 100%, 91%);
+  display: block;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+form {
+  text-align:justify;
+  background-color: hsl(197, 100%, 91%);
+  display: block;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding-top:10px;
+  padding-bottom:10px;
+}
+
+h2, h3, h4 {
+  text-align:center;
+}
+
+#info {
+  margin:5px 20px 5px;
+  padding-top:10px;
+  padding-bottom:10px;
+}
+
+#climate1, #climate2 {
+  height: auto;
+  width:80%;
+  max-width:450px;
+  display: inline-block;
+  position:relative;
+  margin-left: auto; 
+  margin-right: auto;
+}
+
+#climate3 {
+ width: 30%;
+ height: auto;
+}
+
+#message {
+  font-family:"Arial";
+  font-size:larger;
+}
+
+a {
+   color:#0000FF;
+}
+
+a:visited {
+  color:#53868B;
+}
+
+a:hover {
+  color:#33A1C9;
+}
+
+
