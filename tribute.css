@@ -73,10 +73,14 @@ h2, h3, h4 {
   text-align:center;
 }
 
-#info {
+#info, #mention {
   margin:5px 20px 5px;
   padding-top:10px;
   padding-bottom:10px;
+}
+
+#mention {
+  font-size:1.2em;
 }
 
 #climate1, #climate2 {
@@ -110,5 +114,4 @@ a:visited {
 a:hover {
   color:#33A1C9;
 }
-
 
