@@ -84,19 +84,24 @@ h2, h3, h4 {
   font-size:1.2em;
 }
 
+#info {
+  font-family:Arial;
+}
+
 #climate1, #climate2 {
   height: auto;
   width:50%;
   max-width:450px;
   display: inline-block;
   position:relative;
-  margin-left: auto; 
-  margin-right: auto;
+}
 
+#imgcenter {
+  text-align:center;
 }
 
 #climate3 {
- width: 30%;
+ width: 50%;
  height: auto;
 }
 
@@ -116,4 +121,3 @@ a:visited {
 a:hover {
   color:#33A1C9;
 }
-
