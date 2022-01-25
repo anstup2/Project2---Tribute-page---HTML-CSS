@@ -29,7 +29,7 @@ h1 {
 }
 
 img {
-  width:40%;
+  width:80%;
   max-width:480px;
   display: block;
   margin-left: auto;
@@ -101,7 +101,7 @@ h2, h3, h4 {
 }
 
 #climate3 {
- width: 50%;
+ width: 100%;
  height: auto;
 }
 
