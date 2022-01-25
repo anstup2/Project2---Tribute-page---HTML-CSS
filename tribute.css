@@ -1,7 +1,7 @@
 #earth {
 position:relative;
 height:150px;
-width:150px;
+width:150px;  
 margin-left:20px;
 background: #888 url(https://sm.pcmag.com/t/pcmag_uk/news/g/google-removes-clouds-from-maps,-earth-satellite-i/google-removes-clouds-from-maps,-earth-satellite-i_wx8w.3840.jpg) 0 0 repeat;
 border-radius:50%;
@@ -23,9 +23,12 @@ background-position: 630px 0;
 }
 }
 
+
+
 h1 {
   text-align:center;
-  font-size: 2rem;
+  font-size: 2.4rem;
+  font-family:Tahoma;
 }
 
 img {
@@ -40,6 +43,7 @@ img {
 #description {
   text-align:center;
   font-size:20px;
+  font-weight:200;
 }
 
 #img-caption {
@@ -52,7 +56,6 @@ img {
 }
 
 #tribute-info {
-  text-align:justify;
   background-color: hsl(197, 100%, 91%);
   display: block;
   margin-left: 50px;
@@ -60,7 +63,6 @@ img {
 }
 
 form {
-  text-align:justify;
   background-color: hsl(197, 100%, 91%);
   border-radius:15px;
   display: block;
@@ -68,10 +70,24 @@ form {
   margin-right: 50px;
   padding-top:10px;
   padding-bottom:10px;
+  border-style: outset;
 }
 
 h2, h3, h4 {
   text-align:center;
+}
+
+
+h3 {
+ font-size:1.5rem; 
+}
+
+h4 {
+  font-family:Arial;
+}
+
+#awards {
+  font-size:1.7em;
 }
 
 #info, #mention {
@@ -121,3 +137,4 @@ a:visited {
 a:hover {
   color:#33A1C9;
 }
+
